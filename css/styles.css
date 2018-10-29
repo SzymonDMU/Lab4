@@ -5,19 +5,43 @@
 
 body {
   background: #fcc;
-} 
-
-
-
-/* TABLET STYLES */
+}
+.menu{
+  background-color: darkblue;
+  color: white;
+  line-height: 2em;
+}
+nav{
+  display: none;
+}
+#menuToggle{
+  display: flex;
+}
+.menu-toggle{
+  display: flex;
+  background-color: grey;
+}
+.test{
+  background-color: lightgrey;
+}
+/* .menu:hover ~ nav{
+  display: flex;
+}TABLET STYLES */
 
 @media screen and (min-width: 500px) {
 
   /* applies to screens wider than 499px */
-  
+
+
+.menu{
+  display: none;
+}
   body {
     background: #cfc;
-  } 
+  }
+nav{
+  display: flex;
+}
 }
 
 
@@ -30,5 +54,5 @@ body {
 
   body {
     background: #ccf;
-  } 
+  }
 }
